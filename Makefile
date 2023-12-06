@@ -91,6 +91,9 @@ include ${TARGET_MKF}
 #
 # S= >/dev/null 2>&1	silence ${CC} output during hsrc file formation
 # S=			full ${CC} output during hsrc file formation
+
+CC = gcc -g -ggdb -O0
+
 #
 # E= 2>/dev/null	silence command stderr during hsrc file formation
 # E=			full command stderr during hsrc file formation
